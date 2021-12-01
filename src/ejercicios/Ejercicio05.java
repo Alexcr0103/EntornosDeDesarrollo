@@ -1,13 +1,13 @@
-package Ejercicios;
+package ejercicios;
 
 import java.util.Scanner;
 
-public class Calculadora {
+public class Ejercicio05 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int num1, num2, num3;
-		Calculadora calc= new Calculadora();
+		Ejercicio05 calc= new Ejercicio05();
 		
 		Scanner sc= new Scanner(System.in);
 		System.out.println("Introduzca un valor ");
