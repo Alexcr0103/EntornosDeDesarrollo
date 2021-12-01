@@ -1,41 +1,25 @@
 package Ejercicios;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
 class Ejercicio01Test {
 
 	@Test
-	public void Mayor() {
-		int resultado = Ejercicio01.Mayor (5,3,4);
-		int esperado = 5;
-		 assertEquals(resultado,esperado);
-	}
-	
-	@Test
-	public void Mayor2 () {
-		int resultado = Ejercicio01.Mayor(3, 6, 4);
+	public void testMayor1() {
+		int resultado =Ejercicio01.Mayor(3, 6);
 		int esperado = 6;
 		
 		assertEquals(resultado, esperado);
 	}
-
 	@Test
-	public void Mayor3 () {
-		int resultado = Ejercicio01.Mayor(3, 5, 7);
-		int esperado = 7;
+	public void testMayor2() {
+		int resultado =Ejercicio01.Mayor(4, 2);
+		int esperado = 4;
 		
 		assertEquals(resultado, esperado);
 	}
-	
-	@Test
-	public void Mayor5 () {
-		int resultado = Ejercicio01.Mayor(8, 5, 9);
-		int esperado = 9;
-		
-		assertEquals(resultado, esperado);
-	}
-
 
 }
