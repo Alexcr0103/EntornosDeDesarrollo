@@ -1,4 +1,4 @@
-package Ejercicios;
+package ejercicios;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
